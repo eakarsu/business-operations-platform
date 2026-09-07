@@ -1,0 +1,9 @@
+{
+  "app": "business-operations-platform",
+  "features": 159,
+  "sourceApps": 9,
+  "calculatorEngines": 0,
+  "registryHash": "ffa6d64d4bc91753577958c647b3d41969efccd5e2bed57976587d965313df7f",
+  "builtAt": "2026-09-07T22:06:12.318Z",
+  "status": "built"
+}

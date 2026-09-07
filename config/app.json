@@ -1,0 +1,33 @@
+{
+  "id": "business-operations-platform",
+  "title": "Business operations & organizational knowledge",
+  "buyer": "Business operations and management teams",
+  "sourceCount": 9,
+  "sources": [
+    "ai-operating-system-for-companies",
+    "ai-operations-chief-of-staff",
+    "ai-organizational-velocity-analytics",
+    "ai_business_business_automation",
+    "AiBusinessAutomation",
+    "ameritai",
+    "company-brain",
+    "lindy-web-replica-react",
+    "sap"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46057,
+  "productName": "Business operations Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/ai-operating-system-for-companies",
+    "/Volumes/external/projects/ai-operations-chief-of-staff",
+    "/Volumes/external/projects/ai-organizational-velocity-analytics",
+    "/Volumes/external/projects/ai_business_business_automation",
+    "/Volumes/external/projects/AiBusinessAutomation",
+    "/Volumes/external/projects/ameritai",
+    "/Volumes/external/projects/company-brain",
+    "/Volumes/external/projects/lindy-web-replica-react",
+    "/Volumes/external/projects/sap"
+  ]
+}

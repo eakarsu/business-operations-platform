@@ -1,0 +1,1534 @@
+{
+  "mapped": [
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "sources",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "sources",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "events",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "calendar",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "insights",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "insights",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "anomalies",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "anomalies",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "queries",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "queries",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "connectors",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "connectors",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "agent-dispatcher",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "agent-dispatcher",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "decision-replay",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "decision-replay",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "kpis",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "kpis",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "workflows",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "workflows",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "chief-of-staff",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "chief-of-staff",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "tickets",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "tickets",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "intent-graph",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "intent-graph",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "export",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "export",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "activity",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "audit",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "rbac",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "rbac",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "alerting",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "alerting",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "pii-redaction",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "pii-redaction",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "transcripts",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "transcripts",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "webhook-ingest",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "webhook-ingest",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "connector-scripts",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "connector-scripts",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "query-suggest",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "query-suggest",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "source-onboarding",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "source-onboarding",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "self-improving-queries",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "self-improving-queries",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "sourceKey": "policy-drift",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "canonical": "policy-drift",
+      "kind": "route"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "/commitments",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "commitments",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "/meetings",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "meetings",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "/sources",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "sources",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "Executive",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "executive",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "Commitment",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "commitment",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "FollowUp",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "follow-up",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "MeetingNote",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "meeting-note",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "WeeklyReport",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "weekly-report",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "DecisionBrief",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "decision-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "DraftCommunication",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "draft-communication",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "SourceFeed",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "source-feed",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "ActionItem",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "action-item",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "EscalationEvent",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "escalation-event",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "StakeholderAccount",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "stakeholder-account",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "CalendarWindow",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "calendar-window",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "commitment-scan",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "commitment-scan",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "notes-structure",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "notes-structure",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-operations-chief-of-staff",
+      "sourceKey": "brief-draft",
+      "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+      "canonical": "brief-draft",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "/flow",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "flow",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "/friction",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "friction",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "/ai-impact",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "impact",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "/executive",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "executive",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "Team",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "team",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "DeliveryCycle",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "delivery-cycle",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "WorkItem",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "work-item",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "ReworkEvent",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "rework-event",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "ApprovalDelay",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "approval-delay",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "CoordinationCost",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "coordination-cost",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "QualitySignal",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "quality-signal",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "AiUsageRecord",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "usage-record",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "ProductivityBaseline",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "productivity-baseline",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "Experiment",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "experiment",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "BenchmarkSnapshot",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "benchmark-snapshot",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "ExecutiveReport",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "executive-report",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "velocity-brief",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "velocity-brief",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "friction-analysis",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "friction-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "ai-organizational-velocity-analytics",
+      "sourceKey": "gains-vs-activity",
+      "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+      "canonical": "gains-vs-activity",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/vendors",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "vendors",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/bids",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "bids",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/contracts",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "contracts",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/rfps",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "rfps",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/products",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "products",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/analytics",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/spend",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "spend",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/savings",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "savings",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/compliance",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "ai_business_business_automation",
+      "sourceKey": "/notifications",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/workflows",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "workflows",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/documents",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/approvals",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "approvals",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/tasks",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "tasks",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/emails",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "emails",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/invoices",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/contracts",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "contracts",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/tickets",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "tickets",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/onboarding",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "onboarding",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/expenses",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "expenses",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/meetings",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "meetings",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/data-entry",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "data-entry",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/compliance",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/vendors",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "vendors",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/process-mining",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "process-mining",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/workflow-optimizer",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "workflow-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/rpa-scripts",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "rpa-scripts",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/exception-handler",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "exception-handler",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/roi-calculator",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "roi-calculator",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Workflows",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "workflows",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Documents",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Approvals",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "approvals",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Automation Tasks",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "automation-tasks",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Emails",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "emails",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Invoices",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "billing",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Contracts",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "contracts",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Support Tickets",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "support-tickets",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "HR Onboarding",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "hr-onboarding",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Expenses",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "expenses",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Meetings",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "meetings",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Reports",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Data Entry",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "data-entry",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Compliance",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Vendors",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "vendors",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Process Mining",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "process-mining",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Workflow Optimizer",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "workflow-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "RPA Scripts",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "rpa-scripts",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "Exception Handler",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "exception-handler",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "ROI Calculator",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+      "canonical": "roi-calculator",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/chat",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "chat",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/analyze-document",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "analyze-document",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/analyze-contract",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "analyze-contract",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/categorize-email",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "categorize-email",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/suggest-workflow",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "suggest-workflow",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/analyze-expense",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "analyze-expense",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/generate-agenda",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "generate-agenda",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/prioritize-ticket",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "prioritize-ticket",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/analyze-compliance",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "analyze-compliance",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/evaluate-vendor",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "evaluate-vendor",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/generate-report",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "generate-report",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/suggest-onboarding",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "suggest-onboarding",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/extract-data",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "extract-data",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "/ai/suggest-approval-chain",
+      "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+      "canonical": "suggest-approval-chain",
+      "kind": "definition"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "workflow-triggers",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "workflow-triggers",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "bottleneck-heatmap",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "bottleneck-heatmap",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "anomaly-check",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "anomaly-check",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "workflow-builder",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "workflow-builder",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "compliance-watchdog",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "compliance-watchdog",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "process-analytics",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "process-analytics",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "notifications",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "messages",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "ai-stream",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "stream",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "anomaly-detection",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "anomaly-detection",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "webhooks",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "ai-toolbox",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "toolbox",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "backlog-tools",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "backlog-tools",
+      "kind": "route"
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "sourceKey": "exception-cost-attribution",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "canonical": "exception-cost-attribution",
+      "kind": "route"
+    },
+    {
+      "project": "ameritai",
+      "sourceKey": "ameritai",
+      "source": "/Volumes/external/projects/ameritai",
+      "canonical": "ameritai",
+      "kind": "source-workflow"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/knowledge",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "knowledge",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/documents",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/queries",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "queries",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/procedures",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "procedures",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/policies",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "policies",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "/decisions",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "canonical": "decisions",
+      "kind": "definition"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "source-connectors",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "source-connectors",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "ingestion",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "ingestion",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "hybrid-search",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "hybrid-search",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "embedding-models",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "embedding-models",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "knowledge-graph",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "knowledge-graph",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "retrieval-eval",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "retrieval-eval",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "tenants-acl",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "tenants-acl",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/skill-file-generator",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "skill-file-generator",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/knowledge-refresh-agent",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "knowledge-refresh-agent",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/query-route-to-source",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "query-route-to-source",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/contradiction-detector",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "contradiction-detector",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/onboarding-curriculum",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "onboarding-curriculum",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/connectors",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "connectors",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/embeddings-store",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "embeddings-store",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/versioning",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "versioning",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/dept-access-control",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "dept-access-control",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/webhook-ingest",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "webhook-ingest",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "gap/scim-sso",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "scim-sso",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "cf/skills-json",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "skills-json",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "cf/staleness-pr",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "staleness-pr",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "cf/multi-llm-voting",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "multi-llm-voting",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "cf/dept-graphs",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "dept-graphs",
+      "kind": "route"
+    },
+    {
+      "project": "company-brain",
+      "sourceKey": "cf/meeting-transcripts",
+      "source": "/Volumes/external/projects/company-brain",
+      "canonical": "meeting-transcripts",
+      "kind": "route"
+    },
+    {
+      "project": "lindy-web-replica-react",
+      "sourceKey": "contact",
+      "source": "/Volumes/external/projects/lindy-web-replica-react",
+      "canonical": "contacts",
+      "kind": "route"
+    },
+    {
+      "project": "lindy-web-replica-react",
+      "sourceKey": "requests",
+      "source": "/Volumes/external/projects/lindy-web-replica-react",
+      "canonical": "requests",
+      "kind": "route"
+    },
+    {
+      "project": "lindy-web-replica-react",
+      "sourceKey": "security",
+      "source": "/Volumes/external/projects/lindy-web-replica-react",
+      "canonical": "security",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "ai-insights",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "insights",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "ai-studio",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "studio",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "reports",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "reports",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "calendar",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "calendar",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "approvals",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "approvals",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "approval-exposure",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "approval-exposure",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-controls",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-controls",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-process-hub",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-process-hub",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-configuration",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-configuration",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-workflow",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-workflow",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-authorization",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-authorization",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-finance-ledger",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-finance-ledger",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-production-planning",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-production-planning",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-sales-distribution",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-sales-distribution",
+      "kind": "route"
+    },
+    {
+      "project": "sap",
+      "sourceKey": "sap-inventory-warehouse",
+      "source": "/Volumes/external/projects/sap",
+      "canonical": "sap-inventory-warehouse",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "login",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "/*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "health",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "search",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai-operating-system-for-companies",
+      "key": "sample-data",
+      "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_business_business_automation",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_business_business_automation",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "ai_business_business_automation",
+      "key": "/settings",
+      "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "/workflow-triggers/:id/fire",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "/compliance-watchdog/:id/draft-memo",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "login",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "profile",
+      "source": "/Volumes/external/projects/AiBusinessAutomation",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AiBusinessAutomation",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "company-brain",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "company-brain",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/company-brain",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "lindy-web-replica-react",
+      "key": "privacy",
+      "source": "/Volumes/external/projects/lindy-web-replica-react",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "lindy-web-replica-react",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "sap",
+      "key": "login",
+      "source": "/Volumes/external/projects/sap",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "sap",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "sap",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/sap",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "sap",
+      "key": "settings",
+      "source": "/Volumes/external/projects/sap",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "sap",
+      "key": "/:moduleKey",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "sap",
+      "key": "/:moduleKey/:id",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "sap",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": [
+    {
+      "project": "ameritai",
+      "reason": "No structured web feature declarations extracted. Source-specific engine/UI migration remains required."
+    }
+  ]
+}

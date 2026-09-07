@@ -1,0 +1,6699 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "lindy-web-replica-react",
+        "path": "contact",
+        "source": "/Volumes/external/projects/lindy-web-replica-react",
+        "kind": "route",
+        "label": "Contact"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/tasks",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Automation"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "events",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Events"
+      },
+      {
+        "module": "sap",
+        "path": "calendar",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Calendar"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      },
+      {
+        "name": "department",
+        "label": "Department",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/documents",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Documents"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Documents",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Documents"
+      },
+      {
+        "module": "company-brain",
+        "path": "/documents",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Documents"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      },
+      {
+        "name": "vendor_name",
+        "label": "Vendor",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/invoices",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Invoices"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Invoices",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Invoices"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/notifications",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Notifications"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "notifications",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Notifications"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [
+      {
+        "name": "report_type",
+        "label": "Report Type",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "data_source",
+        "label": "Data Source",
+        "type": "text"
+      },
+      {
+        "name": "schedule",
+        "label": "Schedule",
+        "type": "text"
+      },
+      {
+        "name": "last_generated",
+        "label": "Last Generated",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Reports & Briefs"
+      },
+      {
+        "module": "ai_business_business_automation",
+        "path": "/analytics",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Executive Analytics"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Reports",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Reports"
+      },
+      {
+        "module": "sap",
+        "path": "reports",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "activity",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Activity"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sources",
+    "title": "Sources",
+    "group": "Operating system for companies",
+    "description": "Organize sources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "sources",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Sources"
+      },
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "/sources",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Sources"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/sources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insights",
+    "title": "Insights",
+    "group": "Operating system for companies",
+    "description": "Organize insights and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "insights",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Insights"
+      },
+      {
+        "module": "sap",
+        "path": "ai-insights",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Insights"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/insights",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomalies",
+    "title": "Anomalies",
+    "group": "Operating system for companies",
+    "description": "Organize anomalies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "anomalies",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Anomalies"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/anomalies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "queries",
+    "title": "Queries",
+    "group": "Operating system for companies",
+    "description": "Organize queries and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "queries",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Queries"
+      },
+      {
+        "module": "company-brain",
+        "path": "/queries",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Queries"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/queries",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connectors",
+    "title": "Connectors",
+    "group": "Operating system for companies",
+    "description": "Prepare connectors requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "connectors",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Connectors"
+      },
+      {
+        "module": "company-brain",
+        "path": "gap/connectors",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Connectors"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/connectors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agent-dispatcher",
+    "title": "Agent dispatcher",
+    "group": "Operating system for companies",
+    "description": "Organize agent dispatcher and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "agent-dispatcher",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Agent dispatcher"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/agent-dispatcher",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "decision-replay",
+    "title": "Decision replay",
+    "group": "Operating system for companies",
+    "description": "Organize decision replay and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "decision-replay",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Decision replay"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/decision-replay",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "kpis",
+    "title": "Kpis",
+    "group": "Operating system for companies",
+    "description": "Organize kpis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "kpis",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Kpis"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/kpis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workflows",
+    "title": "Workflows",
+    "group": "Operating system for companies",
+    "description": "Organize workflows and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "trigger_type",
+        "label": "Trigger Type",
+        "type": "text"
+      },
+      {
+        "name": "steps",
+        "label": "Steps",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "workflows",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Workflows"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/workflows",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Workflows"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Workflows",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Workflows"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/workflows",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chief-of-staff",
+    "title": "Chief of staff",
+    "group": "Operating system for companies",
+    "description": "Organize chief of staff and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "chief-of-staff",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Chief of staff"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/chief-of-staff",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tickets",
+    "title": "Tickets",
+    "group": "Operating system for companies",
+    "description": "Organize tickets and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "tickets",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Tickets"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/tickets",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Tickets"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/tickets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "intent-graph",
+    "title": "Intent graph",
+    "group": "Operating system for companies",
+    "description": "Organize intent graph and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "intent-graph",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Intent graph"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/intent-graph",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "export",
+    "title": "Export",
+    "group": "Operating system for companies",
+    "description": "Organize export and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "export",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Export"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/export",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rbac",
+    "title": "Rbac",
+    "group": "Operating system for companies",
+    "description": "Organize rbac and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "rbac",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Rbac"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/rbac",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "alerting",
+    "title": "Alerting",
+    "group": "Operating system for companies",
+    "description": "Organize alerting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "alerting",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Alerting"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/alerting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "pii-redaction",
+    "title": "Pii redaction",
+    "group": "Operating system for companies",
+    "description": "Organize pii redaction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "pii-redaction",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Pii redaction"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/pii-redaction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "transcripts",
+    "title": "Transcripts",
+    "group": "Operating system for companies",
+    "description": "Organize transcripts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "transcripts",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Transcripts"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/transcripts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhook-ingest",
+    "title": "Webhook ingest",
+    "group": "Operating system for companies",
+    "description": "Prepare webhook ingest requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "webhook-ingest",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Webhook ingest"
+      },
+      {
+        "module": "company-brain",
+        "path": "gap/webhook-ingest",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Webhook ingest"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/webhook-ingest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connector-scripts",
+    "title": "Connector scripts",
+    "group": "Operating system for companies",
+    "description": "Prepare connector scripts requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "connector-scripts",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Connector scripts"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/connector-scripts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "query-suggest",
+    "title": "Query suggest",
+    "group": "Operating system for companies",
+    "description": "Organize query suggest and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "query-suggest",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Query suggest"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/query-suggest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "source-onboarding",
+    "title": "Source onboarding",
+    "group": "Operating system for companies",
+    "description": "Organize source onboarding and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "source-onboarding",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Source onboarding"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/source-onboarding",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "self-improving-queries",
+    "title": "Self improving queries",
+    "group": "Operating system for companies",
+    "description": "Organize self improving queries and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "self-improving-queries",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Self improving queries"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/self-improving-queries",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "policy-drift",
+    "title": "Policy drift",
+    "group": "Operating system for companies",
+    "description": "Organize policy drift and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operating-system-for-companies",
+        "path": "policy-drift",
+        "source": "/Volumes/external/projects/ai-operating-system-for-companies",
+        "kind": "route",
+        "label": "Policy drift"
+      }
+    ],
+    "owner": "ai-operating-system-for-companies",
+    "alternatives": [],
+    "path": "/features/policy-drift",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commitments",
+    "title": "Commitments",
+    "group": "Operations chief of staff",
+    "description": "Commitments, action items, follow-ups.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "/commitments",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Commitments"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/commitments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meetings",
+    "title": "Meetings",
+    "group": "Operations chief of staff",
+    "description": "Meeting notes, calendar windows, stakeholders.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "meeting_date",
+        "label": "Meeting Date",
+        "type": "date"
+      },
+      {
+        "name": "duration",
+        "label": "Duration (minutes)",
+        "type": "text"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "meeting_type",
+        "label": "Meeting Type",
+        "type": "text"
+      },
+      {
+        "name": "agenda",
+        "label": "Agenda",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "/meetings",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Meetings"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/meetings",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Meetings"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Meetings",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Meetings"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/meetings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "executive",
+    "title": "Executive",
+    "group": "Operations chief of staff",
+    "description": "Organize executive and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "office",
+        "label": "Office",
+        "type": "text"
+      },
+      {
+        "name": "assistant",
+        "label": "Assistant",
+        "type": "text"
+      },
+      {
+        "name": "timezone",
+        "label": "Timezone",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "Executive",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Executive"
+      },
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "/executive",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Executive"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/executive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commitment",
+    "title": "Commitment",
+    "group": "Operations chief of staff",
+    "description": "Organize commitment and prepare the next review.",
+    "fields": [
+      {
+        "name": "who",
+        "label": "Who",
+        "type": "text"
+      },
+      {
+        "name": "what",
+        "label": "What",
+        "type": "text"
+      },
+      {
+        "name": "source",
+        "label": "Source",
+        "type": "text"
+      },
+      {
+        "name": "dueDate",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "noticedAt",
+        "label": "Noticed at",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "Commitment",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Commitment"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/commitment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "follow-up",
+    "title": "Follow-Up",
+    "group": "Operations chief of staff",
+    "description": "Organize follow-up and prepare the next review.",
+    "fields": [
+      {
+        "name": "commitmentRef",
+        "label": "Commitment ref",
+        "type": "text"
+      },
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "draftBody",
+        "label": "Draft body",
+        "type": "text"
+      },
+      {
+        "name": "channel",
+        "label": "Channel",
+        "type": "text"
+      },
+      {
+        "name": "sentAt",
+        "label": "Sent at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "FollowUp",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Follow-Up"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/follow-up",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meeting-note",
+    "title": "Meeting Note",
+    "group": "Operations chief of staff",
+    "description": "Organize meeting note and prepare the next review.",
+    "fields": [
+      {
+        "name": "meeting",
+        "label": "Meeting",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      },
+      {
+        "name": "keyDecisions",
+        "label": "Key decisions",
+        "type": "text"
+      },
+      {
+        "name": "actionItems",
+        "label": "Action items",
+        "type": "text"
+      },
+      {
+        "name": "heldAt",
+        "label": "Held at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "MeetingNote",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Meeting Note"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/meeting-note",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weekly-report",
+    "title": "Weekly Report",
+    "group": "Operations chief of staff",
+    "description": "Organize weekly report and prepare the next review.",
+    "fields": [
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "highlights",
+        "label": "Highlights",
+        "type": "text"
+      },
+      {
+        "name": "risks",
+        "label": "Risks",
+        "type": "text"
+      },
+      {
+        "name": "asks",
+        "label": "Asks",
+        "type": "text"
+      },
+      {
+        "name": "sentAt",
+        "label": "Sent at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "WeeklyReport",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Weekly Report"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/weekly-report",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "decision-brief",
+    "title": "Decision Brief",
+    "group": "Operations chief of staff",
+    "description": "Organize decision brief and prepare the next review.",
+    "fields": [
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "text"
+      },
+      {
+        "name": "options",
+        "label": "Options",
+        "type": "text"
+      },
+      {
+        "name": "recommendation",
+        "label": "Recommendation",
+        "type": "text"
+      },
+      {
+        "name": "dueDate",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "decision",
+        "label": "Decision",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "DecisionBrief",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Decision Brief"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/decision-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "draft-communication",
+    "title": "Draft",
+    "group": "Operations chief of staff",
+    "description": "Organize draft and prepare the next review.",
+    "fields": [
+      {
+        "name": "kind",
+        "label": "Kind",
+        "type": "text"
+      },
+      {
+        "name": "audience",
+        "label": "Audience",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "text"
+      },
+      {
+        "name": "approvedBy",
+        "label": "Approved by",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "DraftCommunication",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/draft-communication",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "source-feed",
+    "title": "Source Feed",
+    "group": "Operations chief of staff",
+    "description": "Organize source feed and prepare the next review.",
+    "fields": [
+      {
+        "name": "system",
+        "label": "System",
+        "type": "text"
+      },
+      {
+        "name": "scope",
+        "label": "Scope",
+        "type": "text"
+      },
+      {
+        "name": "scopeDetail",
+        "label": "Scope detail",
+        "type": "text"
+      },
+      {
+        "name": "lastSyncedAt",
+        "label": "Last synced at",
+        "type": "date"
+      },
+      {
+        "name": "itemsSynced",
+        "label": "Items synced",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "SourceFeed",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Source Feed"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/source-feed",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "action-item",
+    "title": "Action Item",
+    "group": "Operations chief of staff",
+    "description": "Organize action item and prepare the next review.",
+    "fields": [
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "item",
+        "label": "Item",
+        "type": "text"
+      },
+      {
+        "name": "fromMeeting",
+        "label": "From meeting",
+        "type": "text"
+      },
+      {
+        "name": "dueDate",
+        "label": "Due date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "ActionItem",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Action Item"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/action-item",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "escalation-event",
+    "title": "Escalation",
+    "group": "Operations chief of staff",
+    "description": "Organize escalation and prepare the next review.",
+    "fields": [
+      {
+        "name": "trigger",
+        "label": "Trigger",
+        "type": "text"
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "text"
+      },
+      {
+        "name": "notified",
+        "label": "Notified",
+        "type": "text"
+      },
+      {
+        "name": "raisedAt",
+        "label": "Raised at",
+        "type": "date"
+      },
+      {
+        "name": "outcome",
+        "label": "Outcome",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "EscalationEvent",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Escalation"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/escalation-event",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stakeholder-account",
+    "title": "Stakeholder",
+    "group": "Operations chief of staff",
+    "description": "Organize stakeholder and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      },
+      {
+        "name": "accountabilityArea",
+        "label": "Accountability area",
+        "type": "text"
+      },
+      {
+        "name": "health",
+        "label": "Health",
+        "type": "text"
+      },
+      {
+        "name": "lastContact",
+        "label": "Last contact",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "StakeholderAccount",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Stakeholder"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/stakeholder-account",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar-window",
+    "title": "Calendar Window",
+    "group": "Operations chief of staff",
+    "description": "Organize calendar window and prepare the next review.",
+    "fields": [
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      },
+      {
+        "name": "startAt",
+        "label": "Start at",
+        "type": "date"
+      },
+      {
+        "name": "durationMin",
+        "label": "Duration min",
+        "type": "number"
+      },
+      {
+        "name": "protection",
+        "label": "Protection",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "CalendarWindow",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Calendar Window"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/calendar-window",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "commitment-scan",
+    "title": "Draft: Commitment Scanner",
+    "group": "Operations chief of staff",
+    "description": "Find commitments and missed follow-ups.",
+    "fields": [
+      {
+        "name": "sourceText",
+        "label": "Source text",
+        "type": "textarea"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "timeframe",
+        "label": "Timeframe",
+        "type": "text"
+      },
+      {
+        "name": "stakes",
+        "label": "Stakes",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "commitment-scan",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Commitment Scanner"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/commitment-scan",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes-structure",
+    "title": "Draft: Meeting Note Structurer",
+    "group": "Operations chief of staff",
+    "description": "Structure raw meeting notes.",
+    "fields": [
+      {
+        "name": "rawNotes",
+        "label": "Raw notes",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      },
+      {
+        "name": "meetingGoal",
+        "label": "Meeting goal",
+        "type": "text"
+      },
+      {
+        "name": "duration",
+        "label": "Duration",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "notes-structure",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Meeting Note Structurer"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/notes-structure",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "brief-draft",
+    "title": "Draft: Decision Brief Drafter",
+    "group": "Operations chief of staff",
+    "description": "Draft an executive decision brief.",
+    "fields": [
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "text"
+      },
+      {
+        "name": "options",
+        "label": "Options",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints",
+        "type": "text"
+      },
+      {
+        "name": "decisionMaker",
+        "label": "Decision maker",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-operations-chief-of-staff",
+        "path": "brief-draft",
+        "source": "/Volumes/external/projects/ai-operations-chief-of-staff/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Decision Brief Drafter"
+      }
+    ],
+    "owner": "ai-operations-chief-of-staff",
+    "alternatives": [],
+    "path": "/features/brief-draft",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "flow",
+    "title": "Flow",
+    "group": "Organizational velocity analytics",
+    "description": "Work items, delivery cycles, cycle-time baselines.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "/flow",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Flow"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/flow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "friction",
+    "title": "Friction",
+    "group": "Organizational velocity analytics",
+    "description": "Rework, approval delays, coordination costs.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "/friction",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Friction"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/friction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "impact",
+    "title": "AI Impact",
+    "group": "Organizational velocity analytics",
+    "description": "AI usage vs. delivery outcomes, quality signals.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "/ai-impact",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "AI Impact"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/impact",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "team",
+    "title": "Team",
+    "group": "Organizational velocity analytics",
+    "description": "Organize team and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "label": "Department",
+        "type": "text"
+      },
+      {
+        "name": "lead",
+        "label": "Lead",
+        "type": "text"
+      },
+      {
+        "name": "headcount",
+        "label": "Headcount",
+        "type": "number"
+      },
+      {
+        "name": "aiSpendMonthly",
+        "label": "Spend monthly",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "Team",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Team"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/team",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "delivery-cycle",
+    "title": "Delivery Cycle",
+    "group": "Organizational velocity analytics",
+    "description": "Organize delivery cycle and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "itemsCompleted",
+        "label": "Items completed",
+        "type": "number"
+      },
+      {
+        "name": "avgCycleDays",
+        "label": "Avg cycle days",
+        "type": "number"
+      },
+      {
+        "name": "medianCycleDays",
+        "label": "Median cycle days",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "DeliveryCycle",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Delivery Cycle"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/delivery-cycle",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "work-item",
+    "title": "Work Item",
+    "group": "Organizational velocity analytics",
+    "description": "Organize work item and prepare the next review.",
+    "fields": [
+      {
+        "name": "key",
+        "label": "Key",
+        "type": "text"
+      },
+      {
+        "name": "kind",
+        "label": "Kind",
+        "type": "text"
+      },
+      {
+        "name": "cycleHours",
+        "label": "Cycle hours",
+        "type": "number"
+      },
+      {
+        "name": "reopenCount",
+        "label": "Reopen count",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "WorkItem",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Work Item"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/work-item",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rework-event",
+    "title": "Rework Event",
+    "group": "Organizational velocity analytics",
+    "description": "Organize rework event and prepare the next review.",
+    "fields": [
+      {
+        "name": "workItemRef",
+        "label": "Work item ref",
+        "type": "text"
+      },
+      {
+        "name": "cause",
+        "label": "Cause",
+        "type": "text"
+      },
+      {
+        "name": "addedHours",
+        "label": "Added hours",
+        "type": "number"
+      },
+      {
+        "name": "origin",
+        "label": "Origin",
+        "type": "text"
+      },
+      {
+        "name": "occurredAt",
+        "label": "Occurred at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "ReworkEvent",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Rework Event"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/rework-event",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approval-delay",
+    "title": "Approval Delay",
+    "group": "Organizational velocity analytics",
+    "description": "Organize approval delay and prepare the next review.",
+    "fields": [
+      {
+        "name": "gate",
+        "label": "Gate",
+        "type": "text"
+      },
+      {
+        "name": "approver",
+        "label": "Approver",
+        "type": "text"
+      },
+      {
+        "name": "delayHours",
+        "label": "Delay hours",
+        "type": "number"
+      },
+      {
+        "name": "workItemRef",
+        "label": "Work item ref",
+        "type": "text"
+      },
+      {
+        "name": "resolvedAt",
+        "label": "Resolved at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "ApprovalDelay",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Approval Delay"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/approval-delay",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "coordination-cost",
+    "title": "Coordination Cost",
+    "group": "Organizational velocity analytics",
+    "description": "Organize coordination cost and prepare the next review.",
+    "fields": [
+      {
+        "name": "activity",
+        "label": "Activity",
+        "type": "text"
+      },
+      {
+        "name": "participants",
+        "label": "Participants",
+        "type": "text"
+      },
+      {
+        "name": "hoursPerWeek",
+        "label": "Hours per week",
+        "type": "number"
+      },
+      {
+        "name": "weeklyCost",
+        "label": "Weekly cost",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "CoordinationCost",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Coordination Cost"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/coordination-cost",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quality-signal",
+    "title": "Quality Signal",
+    "group": "Organizational velocity analytics",
+    "description": "Organize quality signal and prepare the next review.",
+    "fields": [
+      {
+        "name": "kind",
+        "label": "Kind",
+        "type": "text"
+      },
+      {
+        "name": "metric",
+        "label": "Metric",
+        "type": "text"
+      },
+      {
+        "name": "value",
+        "label": "Value",
+        "type": "number"
+      },
+      {
+        "name": "target",
+        "label": "Target",
+        "type": "number"
+      },
+      {
+        "name": "trend",
+        "label": "Trend",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "QualitySignal",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Quality Signal"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/quality-signal",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "usage-record",
+    "title": "AI Usage",
+    "group": "Organizational velocity analytics",
+    "description": "Organize ai usage and prepare the next review.",
+    "fields": [
+      {
+        "name": "tool",
+        "label": "Tool",
+        "type": "text"
+      },
+      {
+        "name": "userRef",
+        "label": "User ref",
+        "type": "text"
+      },
+      {
+        "name": "tokens",
+        "label": "Tokens",
+        "type": "number"
+      },
+      {
+        "name": "cost",
+        "label": "Cost",
+        "type": "number"
+      },
+      {
+        "name": "taskType",
+        "label": "Task type",
+        "type": "text"
+      },
+      {
+        "name": "usedAt",
+        "label": "Used at",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "AiUsageRecord",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "AI Usage"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/usage-record",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "productivity-baseline",
+    "title": "Productivity Baseline",
+    "group": "Organizational velocity analytics",
+    "description": "Organize productivity baseline and prepare the next review.",
+    "fields": [
+      {
+        "name": "metric",
+        "label": "Metric",
+        "type": "text"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "baselineValue",
+        "label": "Baseline value",
+        "type": "number"
+      },
+      {
+        "name": "currentValue",
+        "label": "Current value",
+        "type": "number"
+      },
+      {
+        "name": "deltaPct",
+        "label": "Delta pct",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "ProductivityBaseline",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Productivity Baseline"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/productivity-baseline",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "experiment",
+    "title": "Experiment",
+    "group": "Organizational velocity analytics",
+    "description": "Organize experiment and prepare the next review.",
+    "fields": [
+      {
+        "name": "hypothesis",
+        "label": "Hypothesis",
+        "type": "text"
+      },
+      {
+        "name": "change",
+        "label": "Change",
+        "type": "text"
+      },
+      {
+        "name": "successMetric",
+        "label": "Success metric",
+        "type": "text"
+      },
+      {
+        "name": "startedAt",
+        "label": "Started at",
+        "type": "date"
+      },
+      {
+        "name": "result",
+        "label": "Result",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "Experiment",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Experiment"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/experiment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "benchmark-snapshot",
+    "title": "Benchmark",
+    "group": "Organizational velocity analytics",
+    "description": "Organize benchmark and prepare the next review.",
+    "fields": [
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "metric",
+        "label": "Metric",
+        "type": "text"
+      },
+      {
+        "name": "teamValue",
+        "label": "Team value",
+        "type": "number"
+      },
+      {
+        "name": "orgP50",
+        "label": "Org p50",
+        "type": "number"
+      },
+      {
+        "name": "orgP90",
+        "label": "Org p90",
+        "type": "number"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "BenchmarkSnapshot",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Benchmark"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/benchmark-snapshot",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "executive-report",
+    "title": "Executive Report",
+    "group": "Organizational velocity analytics",
+    "description": "Organize executive report and prepare the next review.",
+    "fields": [
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "generatedFor",
+        "label": "Generated for",
+        "type": "text"
+      },
+      {
+        "name": "headline",
+        "label": "Headline",
+        "type": "text"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "text"
+      },
+      {
+        "name": "publishedAt",
+        "label": "Published at",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "ExecutiveReport",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Executive Report"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/executive-report",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "velocity-brief",
+    "title": "Draft: Velocity Briefing",
+    "group": "Organizational velocity analytics",
+    "description": "Executive briefing on true delivery velocity.",
+    "fields": [
+      {
+        "name": "team",
+        "label": "Team",
+        "type": "text"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      },
+      {
+        "name": "cycleTrend",
+        "label": "Cycle trend",
+        "type": "text"
+      },
+      {
+        "name": "qualityTrend",
+        "label": "Quality trend",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "velocity-brief",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Velocity Briefing"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/velocity-brief",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "friction-analysis",
+    "title": "Draft: Friction Root-Cause",
+    "group": "Organizational velocity analytics",
+    "description": "Analyze the largest friction sources.",
+    "fields": [
+      {
+        "name": "reworkSummary",
+        "label": "Rework summary",
+        "type": "text"
+      },
+      {
+        "name": "approvalSummary",
+        "label": "Approval summary",
+        "type": "text"
+      },
+      {
+        "name": "coordinationSummary",
+        "label": "Coordination summary",
+        "type": "text"
+      },
+      {
+        "name": "period",
+        "label": "Period",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "friction-analysis",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Friction Root-Cause"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/friction-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "gains-vs-activity",
+    "title": "Draft: Gains vs Activity Separator",
+    "group": "Organizational velocity analytics",
+    "description": "Separate genuine productivity gains from increased activity.",
+    "fields": [
+      {
+        "name": "aiUsage",
+        "label": "Usage",
+        "type": "text"
+      },
+      {
+        "name": "deliveryOutcomes",
+        "label": "Delivery outcomes",
+        "type": "text"
+      },
+      {
+        "name": "qualityMetrics",
+        "label": "Quality metrics",
+        "type": "text"
+      },
+      {
+        "name": "meetingLoad",
+        "label": "Meeting load",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai-organizational-velocity-analytics",
+        "path": "gains-vs-activity",
+        "source": "/Volumes/external/projects/ai-organizational-velocity-analytics/src/config/app.ts",
+        "kind": "definition",
+        "label": "Draft: Gains vs Activity Separator"
+      }
+    ],
+    "owner": "ai-organizational-velocity-analytics",
+    "alternatives": [],
+    "path": "/features/gains-vs-activity",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vendors",
+    "title": "Vendors",
+    "group": "Business business automation",
+    "description": "Organize vendors and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "contact_name",
+        "label": "Contact Name",
+        "type": "text"
+      },
+      {
+        "name": "contact_email",
+        "label": "Contact Email",
+        "type": "text"
+      },
+      {
+        "name": "contact_phone",
+        "label": "Contact Phone",
+        "type": "text"
+      },
+      {
+        "name": "contract_value",
+        "label": "Contract Value",
+        "type": "text"
+      },
+      {
+        "name": "contract_start",
+        "label": "Contract Start",
+        "type": "text"
+      },
+      {
+        "name": "contract_end",
+        "label": "Contract End",
+        "type": "text"
+      },
+      {
+        "name": "rating",
+        "label": "Rating",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/vendors",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Vendors"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/vendors",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Vendors"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Vendors",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Vendors"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/vendors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bids",
+    "title": "Bids",
+    "group": "Business business automation",
+    "description": "Organize bids and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/bids",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Bids"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/bids",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contracts",
+    "title": "Contracts",
+    "group": "Business business automation",
+    "description": "Organize contracts and prepare the next review.",
+    "fields": [
+      {
+        "name": "party_name",
+        "label": "Party Name",
+        "type": "text"
+      },
+      {
+        "name": "contract_type",
+        "label": "Contract Type",
+        "type": "text"
+      },
+      {
+        "name": "value",
+        "label": "Value",
+        "type": "text"
+      },
+      {
+        "name": "start_date",
+        "label": "Start Date",
+        "type": "date"
+      },
+      {
+        "name": "end_date",
+        "label": "End Date",
+        "type": "date"
+      },
+      {
+        "name": "terms",
+        "label": "Terms",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/contracts",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Contracts"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/contracts",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Contracts"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Contracts",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Contracts"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/contracts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rfps",
+    "title": "RFPs",
+    "group": "Business business automation",
+    "description": "Organize rfps and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/rfps",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "RFPs"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/rfps",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "products",
+    "title": "Products",
+    "group": "Business business automation",
+    "description": "Organize products and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/products",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Products"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/products",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "spend",
+    "title": "Spend Analysis",
+    "group": "Business business automation",
+    "description": "Organize spend analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/spend",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Spend Analysis"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/spend",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "savings",
+    "title": "Savings",
+    "group": "Business business automation",
+    "description": "Organize savings and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/savings",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Savings"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/savings",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance",
+    "title": "Compliance",
+    "group": "Business business automation",
+    "description": "Organize compliance and prepare the next review.",
+    "fields": [
+      {
+        "name": "regulation_type",
+        "label": "Regulation Type",
+        "type": "text"
+      },
+      {
+        "name": "requirement",
+        "label": "Requirement",
+        "type": "text"
+      },
+      {
+        "name": "current_status",
+        "label": "Current Status",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due Date",
+        "type": "date"
+      },
+      {
+        "name": "responsible_party",
+        "label": "Responsible Party",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ai_business_business_automation",
+        "path": "/compliance",
+        "source": "/Volumes/external/projects/ai_business_business_automation/frontend/src/components/layout/Sidebar.tsx",
+        "kind": "definition",
+        "label": "Compliance"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/compliance",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Compliance"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Compliance",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Compliance"
+      }
+    ],
+    "owner": "ai_business_business_automation",
+    "alternatives": [],
+    "path": "/features/compliance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approvals",
+    "title": "Approvals",
+    "group": "Business automation",
+    "description": "Organize approvals and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "request_type",
+        "label": "Request Type",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/approvals",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Approvals"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Approvals",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Approvals"
+      },
+      {
+        "module": "sap",
+        "path": "approvals",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Approvals"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/approvals",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emails",
+    "title": "Emails",
+    "group": "Business automation",
+    "description": "Organize emails and prepare the next review.",
+    "fields": [
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "from_address",
+        "label": "From",
+        "type": "text"
+      },
+      {
+        "name": "to_address",
+        "label": "To",
+        "type": "text"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "text"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      },
+      {
+        "name": "received_at",
+        "label": "Received",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/emails",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Emails"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Emails",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Emails"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/emails",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "onboarding",
+    "title": "Onboarding",
+    "group": "Business automation",
+    "description": "Organize onboarding and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/onboarding",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Onboarding"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/onboarding",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "expenses",
+    "title": "Expenses",
+    "group": "Business automation",
+    "description": "Organize expenses and prepare the next review.",
+    "fields": [
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "expense_date",
+        "label": "Expense Date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/expenses",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Expenses"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Expenses",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Expenses"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/expenses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "data-entry",
+    "title": "Data Entry",
+    "group": "Business automation",
+    "description": "Organize data entry and prepare the next review.",
+    "fields": [
+      {
+        "name": "source_type",
+        "label": "Source Type",
+        "type": "text"
+      },
+      {
+        "name": "raw_data",
+        "label": "Raw Data",
+        "type": "text"
+      },
+      {
+        "name": "extracted_data",
+        "label": "Extracted Data",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/data-entry",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Data Entry"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Data Entry",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Data Entry"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/data-entry",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-mining",
+    "title": "Process Miner",
+    "group": "Business automation",
+    "description": "Organize process miner and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Process Name",
+        "type": "text"
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "process_type",
+        "label": "Process Type",
+        "type": "text"
+      },
+      {
+        "name": "event_log",
+        "label": "Event Log",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "label": "Department",
+        "type": "text"
+      },
+      {
+        "name": "complexity",
+        "label": "Complexity",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/process-mining",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Process Miner"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Process Mining",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Process Mining"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/process-mining",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workflow-optimizer",
+    "title": "Workflow Optimizer",
+    "group": "Business automation",
+    "description": "Organize workflow optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Workflow Name",
+        "type": "text"
+      },
+      {
+        "name": "workflow_description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "current_steps",
+        "label": "Current Steps",
+        "type": "text"
+      },
+      {
+        "name": "bottlenecks",
+        "label": "Bottlenecks",
+        "type": "text"
+      },
+      {
+        "name": "goals",
+        "label": "Goals",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/workflow-optimizer",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Workflow Optimizer"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Workflow Optimizer",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Workflow Optimizer"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/workflow-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "rpa-scripts",
+    "title": "RPA Scripts",
+    "group": "Business automation",
+    "description": "Organize rpa scripts and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Script Name",
+        "type": "text"
+      },
+      {
+        "name": "task_description",
+        "label": "Task Description",
+        "type": "textarea"
+      },
+      {
+        "name": "platform",
+        "label": "Platform",
+        "type": "text"
+      },
+      {
+        "name": "input_data",
+        "label": "Input Data",
+        "type": "text"
+      },
+      {
+        "name": "output_format",
+        "label": "Output Format",
+        "type": "text"
+      },
+      {
+        "name": "complexity",
+        "label": "Complexity",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/rpa-scripts",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "RPA Scripts"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "RPA Scripts",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "RPA Scripts"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/rpa-scripts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exception-handler",
+    "title": "Exception Handler",
+    "group": "Business automation",
+    "description": "Organize exception handler and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Exception Name",
+        "type": "text"
+      },
+      {
+        "name": "exception_type",
+        "label": "Exception Type",
+        "type": "text"
+      },
+      {
+        "name": "error_message",
+        "label": "Error Message",
+        "type": "text"
+      },
+      {
+        "name": "source_system",
+        "label": "Source System",
+        "type": "text"
+      },
+      {
+        "name": "stack_trace",
+        "label": "Stack Trace",
+        "type": "text"
+      },
+      {
+        "name": "severity",
+        "label": "Severity",
+        "type": "text"
+      },
+      {
+        "name": "impact",
+        "label": "Impact",
+        "type": "text"
+      },
+      {
+        "name": "resolved_at",
+        "label": "Resolved At",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/exception-handler",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Exception Handler"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Exception Handler",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Exception Handler"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/exception-handler",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "roi-calculator",
+    "title": "ROI Calculator",
+    "group": "Business automation",
+    "description": "Organize roi calculator and prepare the next review.",
+    "fields": [
+      {
+        "name": "name",
+        "label": "Project Name",
+        "type": "text"
+      },
+      {
+        "name": "project_description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "implementation_cost",
+        "label": "Implementation Cost",
+        "type": "number"
+      },
+      {
+        "name": "annual_savings",
+        "label": "Annual Savings",
+        "type": "text"
+      },
+      {
+        "name": "time_savings_hours",
+        "label": "Time Savings (hours/year)",
+        "type": "number"
+      },
+      {
+        "name": "current_fte_cost",
+        "label": "Current FTE Cost",
+        "type": "number"
+      },
+      {
+        "name": "automation_type",
+        "label": "Automation Type",
+        "type": "text"
+      },
+      {
+        "name": "payback_period",
+        "label": "Payback Period",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/roi-calculator",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "ROI Calculator"
+      },
+      {
+        "module": "AiBusinessAutomation",
+        "path": "ROI Calculator",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "ROI Calculator"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/roi-calculator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "automation-tasks",
+    "title": "Automation Tasks",
+    "group": "Business automation",
+    "description": "Organize automation tasks and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "task_type",
+        "label": "Task Type",
+        "type": "text"
+      },
+      {
+        "name": "schedule",
+        "label": "Schedule",
+        "type": "text"
+      },
+      {
+        "name": "trigger_condition",
+        "label": "Trigger Condition",
+        "type": "text"
+      },
+      {
+        "name": "last_run",
+        "label": "Last Run",
+        "type": "text"
+      },
+      {
+        "name": "run_count",
+        "label": "Run Count",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Automation Tasks",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Automation Tasks"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/automation-tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "support-tickets",
+    "title": "Support Tickets",
+    "group": "Business automation",
+    "description": "Organize support tickets and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      },
+      {
+        "name": "customer_name",
+        "label": "Customer Name",
+        "type": "text"
+      },
+      {
+        "name": "customer_email",
+        "label": "Customer Email",
+        "type": "text"
+      },
+      {
+        "name": "resolution",
+        "label": "Resolution",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "Support Tickets",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "Support Tickets"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/support-tickets",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hr-onboarding",
+    "title": "HR Onboarding",
+    "group": "Business automation",
+    "description": "Organize hr onboarding and prepare the next review.",
+    "fields": [
+      {
+        "name": "employee_name",
+        "label": "Employee Name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "label": "Department",
+        "type": "text"
+      },
+      {
+        "name": "start_date",
+        "label": "Start Date",
+        "type": "date"
+      },
+      {
+        "name": "manager",
+        "label": "Manager",
+        "type": "text"
+      },
+      {
+        "name": "progress",
+        "label": "Progress",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "HR Onboarding",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/App.js",
+        "kind": "definition",
+        "label": "HR Onboarding"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/hr-onboarding",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "chat",
+    "title": "AI Chat",
+    "group": "Business automation",
+    "description": "Organize ai chat and prepare the next review.",
+    "fields": [
+      {
+        "name": "prompt",
+        "label": "Prompt",
+        "type": "textarea"
+      },
+      {
+        "name": "context",
+        "label": "System Context (optional)",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/chat",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "AI Chat"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/chat",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-document",
+    "title": "Analyze Document",
+    "group": "Business automation",
+    "description": "Organize analyze document and prepare the next review.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Document Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/analyze-document",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Analyze Document"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/analyze-document",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-contract",
+    "title": "Analyze Contract",
+    "group": "Business automation",
+    "description": "Organize analyze contract and prepare the next review.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Contract Text",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/analyze-contract",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Analyze Contract"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/analyze-contract",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "categorize-email",
+    "title": "Categorize Email",
+    "group": "Business automation",
+    "description": "Organize categorize email and prepare the next review.",
+    "fields": [
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "body",
+        "label": "Body",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/categorize-email",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Categorize Email"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/categorize-email",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suggest-workflow",
+    "title": "Suggest Workflow",
+    "group": "Business automation",
+    "description": "Organize suggest workflow and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "What should the workflow do?",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/suggest-workflow",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Suggest Workflow"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/suggest-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-expense",
+    "title": "Analyze Expense",
+    "group": "Business automation",
+    "description": "Organize analyze expense and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      },
+      {
+        "name": "amount",
+        "label": "Amount (USD)",
+        "type": "number"
+      },
+      {
+        "name": "category",
+        "label": "Category",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/analyze-expense",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Analyze Expense"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/analyze-expense",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "generate-agenda",
+    "title": "Generate Meeting Agenda",
+    "group": "Business automation",
+    "description": "Organize generate meeting agenda and prepare the next review.",
+    "fields": [
+      {
+        "name": "topic",
+        "label": "Topic",
+        "type": "text"
+      },
+      {
+        "name": "participants",
+        "label": "Participants (comma-separated)",
+        "type": "text"
+      },
+      {
+        "name": "duration",
+        "label": "Duration (minutes)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/generate-agenda",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Generate Meeting Agenda"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/generate-agenda",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prioritize-ticket",
+    "title": "Prioritize Ticket",
+    "group": "Business automation",
+    "description": "Organize prioritize ticket and prepare the next review.",
+    "fields": [
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/prioritize-ticket",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Prioritize Ticket"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/prioritize-ticket",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "analyze-compliance",
+    "title": "Analyze Compliance",
+    "group": "Business automation",
+    "description": "Organize analyze compliance and prepare the next review.",
+    "fields": [
+      {
+        "name": "requirement",
+        "label": "Requirement",
+        "type": "textarea"
+      },
+      {
+        "name": "currentState",
+        "label": "Current State",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/analyze-compliance",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Analyze Compliance"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/analyze-compliance",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evaluate-vendor",
+    "title": "Evaluate Vendor",
+    "group": "Business automation",
+    "description": "Organize evaluate vendor and prepare the next review.",
+    "fields": [
+      {
+        "name": "vendorName",
+        "label": "Vendor Name",
+        "type": "text"
+      },
+      {
+        "name": "criteria",
+        "label": "Criteria",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/evaluate-vendor",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Evaluate Vendor"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/evaluate-vendor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "generate-report",
+    "title": "Generate Report",
+    "group": "Business automation",
+    "description": "Organize generate report and prepare the next review.",
+    "fields": [
+      {
+        "name": "dataDescription",
+        "label": "Data Description",
+        "type": "textarea"
+      },
+      {
+        "name": "reportType",
+        "label": "Report Type",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/generate-report",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Generate Report"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/generate-report",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suggest-onboarding",
+    "title": "Suggest Onboarding Tasks",
+    "group": "Business automation",
+    "description": "Organize suggest onboarding tasks and prepare the next review.",
+    "fields": [
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "text"
+      },
+      {
+        "name": "department",
+        "label": "Department",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/suggest-onboarding",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Suggest Onboarding Tasks"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/suggest-onboarding",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "extract-data",
+    "title": "Extract Data",
+    "group": "Business automation",
+    "description": "Organize extract data and prepare the next review.",
+    "fields": [
+      {
+        "name": "text",
+        "label": "Source Text",
+        "type": "textarea"
+      },
+      {
+        "name": "fields",
+        "label": "Fields (comma-separated)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/extract-data",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Extract Data"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/extract-data",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "suggest-approval-chain",
+    "title": "Suggest Approval Chain",
+    "group": "Business automation",
+    "description": "Organize suggest approval chain and prepare the next review.",
+    "fields": [
+      {
+        "name": "requestType",
+        "label": "Request Type",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "/ai/suggest-approval-chain",
+        "source": "/Volumes/external/projects/AiBusinessAutomation/frontend/src/pages/NewFeaturesPages.js",
+        "kind": "definition",
+        "label": "Suggest Approval Chain"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/suggest-approval-chain",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workflow-triggers",
+    "title": "Workflow triggers",
+    "group": "Business automation",
+    "description": "Organize workflow triggers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "workflow-triggers",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Workflow triggers"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/workflow-triggers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bottleneck-heatmap",
+    "title": "Bottleneck heatmap",
+    "group": "Business automation",
+    "description": "Organize bottleneck heatmap and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "bottleneck-heatmap",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Bottleneck heatmap"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/bottleneck-heatmap",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomaly-check",
+    "title": "Anomaly check",
+    "group": "Business automation",
+    "description": "Organize anomaly check and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "anomaly-check",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Anomaly check"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/anomaly-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "workflow-builder",
+    "title": "Workflow builder",
+    "group": "Business automation",
+    "description": "Organize workflow builder and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "workflow-builder",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Workflow builder"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/workflow-builder",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance-watchdog",
+    "title": "Compliance watchdog",
+    "group": "Business automation",
+    "description": "Organize compliance watchdog and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "compliance-watchdog",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Compliance watchdog"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/compliance-watchdog",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "process-analytics",
+    "title": "Process analytics",
+    "group": "Business automation",
+    "description": "Organize process analytics and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "process-analytics",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Process analytics"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/process-analytics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stream",
+    "title": "Stream",
+    "group": "Business automation",
+    "description": "Organize stream and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "ai-stream",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Stream"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/stream",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "anomaly-detection",
+    "title": "Anomaly detection",
+    "group": "Business automation",
+    "description": "Organize anomaly detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "anomaly-detection",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Anomaly detection"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/anomaly-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "Webhooks",
+    "group": "Business automation",
+    "description": "Prepare webhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "webhooks",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Webhooks"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "toolbox",
+    "title": "Toolbox",
+    "group": "Business automation",
+    "description": "Organize toolbox and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "ai-toolbox",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Toolbox"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/toolbox",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "backlog-tools",
+    "title": "Backlog tools",
+    "group": "Business automation",
+    "description": "Organize backlog tools and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "backlog-tools",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Backlog tools"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/backlog-tools",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "exception-cost-attribution",
+    "title": "Exception cost attribution",
+    "group": "Business automation",
+    "description": "Organize exception cost attribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AiBusinessAutomation",
+        "path": "exception-cost-attribution",
+        "source": "/Volumes/external/projects/AiBusinessAutomation",
+        "kind": "route",
+        "label": "Exception cost attribution"
+      }
+    ],
+    "owner": "AiBusinessAutomation",
+    "alternatives": [],
+    "path": "/features/exception-cost-attribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ameritai",
+    "title": "Ameritai work",
+    "group": "Ameritai",
+    "description": "Organize ameritai work and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "ameritai",
+        "path": "ameritai",
+        "source": "/Volumes/external/projects/ameritai",
+        "kind": "source-workflow",
+        "label": "Ameritai work"
+      }
+    ],
+    "owner": "ameritai",
+    "alternatives": [],
+    "path": "/features/ameritai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "knowledge",
+    "title": "Knowledge",
+    "group": "Company brain",
+    "description": "Organize knowledge and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "/knowledge",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Knowledge"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/knowledge",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "procedures",
+    "title": "Procedures",
+    "group": "Company brain",
+    "description": "Organize procedures and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "/procedures",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Procedures"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/procedures",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "policies",
+    "title": "Policies",
+    "group": "Company brain",
+    "description": "Organize policies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "/policies",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Policies"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/policies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "decisions",
+    "title": "Decisions",
+    "group": "Company brain",
+    "description": "Organize decisions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "/decisions",
+        "source": "/Volumes/external/projects/company-brain/frontend/src/components/Layout.tsx",
+        "kind": "definition",
+        "label": "Decisions"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/decisions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "source-connectors",
+    "title": "Source connectors",
+    "group": "Company brain",
+    "description": "Prepare source connectors requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "source-connectors",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Source connectors"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/source-connectors",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ingestion",
+    "title": "Ingestion",
+    "group": "Company brain",
+    "description": "Organize ingestion and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "ingestion",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Ingestion"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/ingestion",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hybrid-search",
+    "title": "Hybrid search",
+    "group": "Company brain",
+    "description": "Organize hybrid search and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "hybrid-search",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Hybrid search"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/hybrid-search",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "embedding-models",
+    "title": "Embedding models",
+    "group": "Company brain",
+    "description": "Organize embedding models and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "embedding-models",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Embedding models"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/embedding-models",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "knowledge-graph",
+    "title": "Knowledge graph",
+    "group": "Company brain",
+    "description": "Organize knowledge graph and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "knowledge-graph",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Knowledge graph"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/knowledge-graph",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "retrieval-eval",
+    "title": "Retrieval eval",
+    "group": "Company brain",
+    "description": "Organize retrieval eval and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "retrieval-eval",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Retrieval eval"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/retrieval-eval",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tenants-acl",
+    "title": "Tenants acl",
+    "group": "Company brain",
+    "description": "Organize tenants acl and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "tenants-acl",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Tenants acl"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/tenants-acl",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skill-file-generator",
+    "title": "Skill file generator",
+    "group": "Company brain",
+    "description": "Organize skill file generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/skill-file-generator",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Skill file generator"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/skill-file-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "knowledge-refresh-agent",
+    "title": "Knowledge refresh agent",
+    "group": "Company brain",
+    "description": "Organize knowledge refresh agent and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/knowledge-refresh-agent",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Knowledge refresh agent"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/knowledge-refresh-agent",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "query-route-to-source",
+    "title": "Query route to source",
+    "group": "Company brain",
+    "description": "Organize query route to source and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/query-route-to-source",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Query route to source"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/query-route-to-source",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contradiction-detector",
+    "title": "Contradiction detector",
+    "group": "Company brain",
+    "description": "Organize contradiction detector and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/contradiction-detector",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Contradiction detector"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/contradiction-detector",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "onboarding-curriculum",
+    "title": "Onboarding curriculum",
+    "group": "Company brain",
+    "description": "Organize onboarding curriculum and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/onboarding-curriculum",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Onboarding curriculum"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/onboarding-curriculum",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "embeddings-store",
+    "title": "Embeddings store",
+    "group": "Company brain",
+    "description": "Organize embeddings store and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/embeddings-store",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Embeddings store"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/embeddings-store",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "versioning",
+    "title": "Versioning",
+    "group": "Company brain",
+    "description": "Organize versioning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/versioning",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Versioning"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/versioning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dept-access-control",
+    "title": "Dept access control",
+    "group": "Company brain",
+    "description": "Organize dept access control and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/dept-access-control",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Dept access control"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/dept-access-control",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scim-sso",
+    "title": "Scim sso",
+    "group": "Company brain",
+    "description": "Organize scim sso and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "gap/scim-sso",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Scim sso"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/scim-sso",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "skills-json",
+    "title": "Skills json",
+    "group": "Company brain",
+    "description": "Organize skills json and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "cf/skills-json",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Skills json"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/skills-json",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staleness-pr",
+    "title": "Staleness pr",
+    "group": "Company brain",
+    "description": "Organize staleness pr and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "cf/staleness-pr",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Staleness pr"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/staleness-pr",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-llm-voting",
+    "title": "Multi llm voting",
+    "group": "Company brain",
+    "description": "Organize multi llm voting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "cf/multi-llm-voting",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Multi llm voting"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/multi-llm-voting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "dept-graphs",
+    "title": "Dept graphs",
+    "group": "Company brain",
+    "description": "Organize dept graphs and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "cf/dept-graphs",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Dept graphs"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/dept-graphs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "meeting-transcripts",
+    "title": "Meeting transcripts",
+    "group": "Company brain",
+    "description": "Organize meeting transcripts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "company-brain",
+        "path": "cf/meeting-transcripts",
+        "source": "/Volumes/external/projects/company-brain",
+        "kind": "route",
+        "label": "Meeting transcripts"
+      }
+    ],
+    "owner": "company-brain",
+    "alternatives": [],
+    "path": "/features/meeting-transcripts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "requests",
+    "title": "Requests",
+    "group": "Lindy web replica react",
+    "description": "Organize requests and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "lindy-web-replica-react",
+        "path": "requests",
+        "source": "/Volumes/external/projects/lindy-web-replica-react",
+        "kind": "route",
+        "label": "Requests"
+      }
+    ],
+    "owner": "lindy-web-replica-react",
+    "alternatives": [],
+    "path": "/features/requests",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "security",
+    "title": "Security",
+    "group": "Lindy web replica react",
+    "description": "Organize security and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "lindy-web-replica-react",
+        "path": "security",
+        "source": "/Volumes/external/projects/lindy-web-replica-react",
+        "kind": "route",
+        "label": "Security"
+      }
+    ],
+    "owner": "lindy-web-replica-react",
+    "alternatives": [],
+    "path": "/features/security",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "studio",
+    "title": "Studio",
+    "group": "Sap",
+    "description": "Organize studio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "ai-studio",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Studio"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/studio",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approval-exposure",
+    "title": "Approval exposure",
+    "group": "Sap",
+    "description": "Organize approval exposure and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "approval-exposure",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Approval exposure"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/approval-exposure",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-controls",
+    "title": "Sap controls",
+    "group": "Sap",
+    "description": "Organize sap controls and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-controls",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap controls"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-controls",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-process-hub",
+    "title": "Sap process hub",
+    "group": "Sap",
+    "description": "Organize sap process hub and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-process-hub",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap process hub"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-process-hub",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-configuration",
+    "title": "Sap configuration",
+    "group": "Sap",
+    "description": "Organize sap configuration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-configuration",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap configuration"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-configuration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-workflow",
+    "title": "Sap workflow",
+    "group": "Sap",
+    "description": "Organize sap workflow and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-workflow",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap workflow"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-workflow",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-authorization",
+    "title": "Sap authorization",
+    "group": "Sap",
+    "description": "Organize sap authorization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-authorization",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap authorization"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-authorization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-finance-ledger",
+    "title": "Sap finance ledger",
+    "group": "Sap",
+    "description": "Organize sap finance ledger and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-finance-ledger",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap finance ledger"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-finance-ledger",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-production-planning",
+    "title": "Sap production planning",
+    "group": "Sap",
+    "description": "Organize sap production planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-production-planning",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap production planning"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-production-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-sales-distribution",
+    "title": "Sap sales distribution",
+    "group": "Sap",
+    "description": "Organize sap sales distribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-sales-distribution",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap sales distribution"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-sales-distribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sap-inventory-warehouse",
+    "title": "Sap inventory warehouse",
+    "group": "Sap",
+    "description": "Organize sap inventory warehouse and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "sap",
+        "path": "sap-inventory-warehouse",
+        "source": "/Volumes/external/projects/sap",
+        "kind": "route",
+        "label": "Sap inventory warehouse"
+      }
+    ],
+    "owner": "sap",
+    "alternatives": [],
+    "path": "/features/sap-inventory-warehouse",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

@@ -1,0 +1,276 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "draft-communication",
+      "commitment-scan",
+      "notes-structure",
+      "brief-draft",
+      "velocity-brief",
+      "friction-analysis",
+      "gains-vs-activity",
+      "emails",
+      "analyze-document",
+      "categorize-email"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 13 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "draft-communication",
+        "title": "Draft",
+        "originalPath": "/features/draft-communication"
+      },
+      {
+        "id": "commitment-scan",
+        "title": "Draft: Commitment Scanner",
+        "originalPath": "/features/commitment-scan"
+      },
+      {
+        "id": "notes-structure",
+        "title": "Draft: Meeting Note Structurer",
+        "originalPath": "/features/notes-structure"
+      },
+      {
+        "id": "brief-draft",
+        "title": "Draft: Decision Brief Drafter",
+        "originalPath": "/features/brief-draft"
+      },
+      {
+        "id": "velocity-brief",
+        "title": "Draft: Velocity Briefing",
+        "originalPath": "/features/velocity-brief"
+      },
+      {
+        "id": "friction-analysis",
+        "title": "Draft: Friction Root-Cause",
+        "originalPath": "/features/friction-analysis"
+      },
+      {
+        "id": "gains-vs-activity",
+        "title": "Draft: Gains vs Activity Separator",
+        "originalPath": "/features/gains-vs-activity"
+      },
+      {
+        "id": "emails",
+        "title": "Emails",
+        "originalPath": "/features/emails"
+      },
+      {
+        "id": "analyze-document",
+        "title": "Analyze Document",
+        "originalPath": "/features/analyze-document"
+      },
+      {
+        "id": "categorize-email",
+        "title": "Categorize Email",
+        "originalPath": "/features/categorize-email"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "insights",
+      "spend",
+      "workflow-optimizer",
+      "analyze-contract",
+      "analyze-expense"
+    ],
+    "ai": true,
+    "representativeId": "insights",
+    "description": "One assistant for 5 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "insights",
+        "title": "Insights",
+        "originalPath": "/features/insights"
+      },
+      {
+        "id": "spend",
+        "title": "Spend Analysis",
+        "originalPath": "/features/spend"
+      },
+      {
+        "id": "workflow-optimizer",
+        "title": "Workflow Optimizer",
+        "originalPath": "/features/workflow-optimizer"
+      },
+      {
+        "id": "analyze-contract",
+        "title": "Analyze Contract",
+        "originalPath": "/features/analyze-contract"
+      },
+      {
+        "id": "analyze-expense",
+        "title": "Analyze Expense",
+        "originalPath": "/features/analyze-expense"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "workflows",
+      "impact",
+      "usage-record",
+      "chat",
+      "suggest-workflow",
+      "generate-agenda",
+      "prioritize-ticket",
+      "evaluate-vendor",
+      "generate-report",
+      "suggest-onboarding",
+      "extract-data",
+      "suggest-approval-chain",
+      "process-analytics",
+      "stream",
+      "toolbox",
+      "ameritai",
+      "skill-file-generator",
+      "studio"
+    ],
+    "ai": true,
+    "representativeId": "workflows",
+    "description": "One assistant for 18 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "workflows",
+        "title": "Workflows",
+        "originalPath": "/features/workflows"
+      },
+      {
+        "id": "impact",
+        "title": "AI Impact",
+        "originalPath": "/features/impact"
+      },
+      {
+        "id": "usage-record",
+        "title": "AI Usage",
+        "originalPath": "/features/usage-record"
+      },
+      {
+        "id": "chat",
+        "title": "AI Chat",
+        "originalPath": "/features/chat"
+      },
+      {
+        "id": "suggest-workflow",
+        "title": "Suggest Workflow",
+        "originalPath": "/features/suggest-workflow"
+      },
+      {
+        "id": "generate-agenda",
+        "title": "Generate Meeting Agenda",
+        "originalPath": "/features/generate-agenda"
+      },
+      {
+        "id": "prioritize-ticket",
+        "title": "Prioritize Ticket",
+        "originalPath": "/features/prioritize-ticket"
+      },
+      {
+        "id": "evaluate-vendor",
+        "title": "Evaluate Vendor",
+        "originalPath": "/features/evaluate-vendor"
+      },
+      {
+        "id": "generate-report",
+        "title": "Generate Report",
+        "originalPath": "/features/generate-report"
+      },
+      {
+        "id": "suggest-onboarding",
+        "title": "Suggest Onboarding Tasks",
+        "originalPath": "/features/suggest-onboarding"
+      },
+      {
+        "id": "extract-data",
+        "title": "Extract Data",
+        "originalPath": "/features/extract-data"
+      },
+      {
+        "id": "suggest-approval-chain",
+        "title": "Suggest Approval Chain",
+        "originalPath": "/features/suggest-approval-chain"
+      },
+      {
+        "id": "process-analytics",
+        "title": "Process analytics",
+        "originalPath": "/features/process-analytics"
+      },
+      {
+        "id": "stream",
+        "title": "Stream",
+        "originalPath": "/features/stream"
+      },
+      {
+        "id": "toolbox",
+        "title": "Toolbox",
+        "originalPath": "/features/toolbox"
+      },
+      {
+        "id": "ameritai",
+        "title": "Ameritai work",
+        "originalPath": "/features/ameritai"
+      },
+      {
+        "id": "skill-file-generator",
+        "title": "Skill file generator",
+        "originalPath": "/features/skill-file-generator"
+      },
+      {
+        "id": "studio",
+        "title": "Studio",
+        "originalPath": "/features/studio"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "analyze-compliance"
+    ],
+    "ai": true,
+    "representativeId": "analyze-compliance",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "analyze-compliance",
+        "title": "Analyze Compliance",
+        "originalPath": "/features/analyze-compliance"
+      }
+    ]
+  }
+]
