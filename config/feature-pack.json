@@ -1,0 +1,28 @@
+{
+  "insights": [
+    {
+      "id": "insight-tickets",
+      "feature": "tickets",
+      "title": "Support ticket insight",
+      "focus": "Summarize ticket records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-meetings",
+      "feature": "meetings",
+      "title": "Meeting insight",
+      "focus": "Summarize meeting records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-vendors",
+      "feature": "vendors",
+      "title": "Vendor insight",
+      "focus": "Summarize vendor records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks and deadlines, including unassigned work."
+    }
+  ]
+}
